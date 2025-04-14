@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40 Etiquetas HTML más usadas</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        /* Contenedor de etiquetas */
+        .tags-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 15px;
+        }
+        
+        /* Estilo de cada etiqueta */
+        .tag-box {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-left: 4px solid #3498db;
+        }
+        
+        .tag-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+        
+        .tag-name {
+            font-weight: bold;
+            color: #3498db;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        
+        .tag-comment {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        
+        .tag-description {
+            color: #2c3e50;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .tags-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .team-footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .team-footer h3 {
+            margin-top: 0;
+            color: #3498db;
+            border-bottom: 1px solid #3498db;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .member {
+            background-color: rgba(255,255,255,0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>40 Etiquetas HTML más usadas</h1>
+    
+    <div class="tags-container">
+        <!-- 1 -->
+        <div class="tag-box">
+            <div class="tag-comment">#1</div>
+            <div class="tag-name">&lt;h1&gt;</div>
+            <div class="tag-description">Título principal (solo uno por página)</div>
+        </div>
+        
+        <!-- 2 -->
+        <div class="tag-box">
+            <div class="tag-comment">#2</div>
+            <div class="tag-name">&lt;h2&gt;</div>
+            <div class="tag-description">Subtítulos o secciones importantes</div>
+        </div>
+        
+        <!-- 3 -->
+        <div class="tag-box">
+            <div class="tag-comment">#3</div>
+            <div class="tag-name">&lt;p&gt;</div>
+            <div class="tag-description">Párrafos de texto</div>
+        </div>
+        
+        <!-- 4 -->
+        <div class="tag-box">
+            <div class="tag-comment">#4</div>
+            <div class="tag-name">&lt;a&gt;</div>
+            <div class="tag-description">Enlaces (hipervínculos)</div>
+        </div>
+        
+        <!-- 5 -->
+        <div class="tag-box">
+            <div class="tag-comment">#5</div>
+            <div class="tag-name">&lt;img&gt;</div>
+            <div class="tag-description">Insertar imágenes (autocerrante)</div>
+        </div>
+        
+        <!-- 6 -->
+        <div class="tag-box">
+            <div class="tag-comment">#6</div>
+            <div class="tag-name">&lt;div&gt;</div>
+            <div class="tag-description">Contenedor genérico para agrupar elementos</div>
+        </div>
+        
+        <!-- 7 -->
+        <div class="tag-box">
+            <div class="tag-comment">#7</div>
+            <div class="tag-name">&lt;span&gt;</div>
+            <div class="tag-description">Aplicar estilos a porciones de texto</div>
+        </div>
+        
+        <!-- 8 -->
+        <div class="tag-box">
+            <div class="tag-comment">#8</div>
+            <div class="tag-name">&lt;ul&gt;</div>
+            <div class="tag-description">Listas no ordenadas</div>
+        </div>
+        
+        <!-- 9 -->
+        <div class="tag-box">
+            <div class="tag-comment">#9</div>
+            <div class="tag-name">&lt;ol&gt;</div>
+            <div class="tag-description">Listas ordenadas (numeradas)</div>
+        </div>
+        
+        <!-- 10 -->
+        <div class="tag-box">
+            <div class="tag-comment">#10</div>
+            <div class="tag-name">&lt;li&gt;</div>
+            <div class="tag-description">Ítems de listas (dentro de ul/ol)</div>
+        </div>
+        
+        <!-- 11 -->
+        <div class="tag-box">
+            <div class="tag-comment">#11</div>
+            <div class="tag-name">&lt;table&gt;</div>
+            <div class="tag-description">Crear tablas</div>
+        </div>
+        
+        <!-- 12 -->
+        <div class="tag-box">
+            <div class="tag-comment">#12</div>
+            <div class="tag-name">&lt;tr&gt;</div>
+            <div class="tag-description">Filas de tabla</div>
+        </div>
+        
+        <!-- 13 -->
+        <div class="tag-box">
+            <div class="tag-comment">#13</div>
+            <div class="tag-name">&lt;td&gt;</div>
+            <div class="tag-description">Celdas de tabla</div>
+        </div>
+        
+        <!-- 14 -->
+        <div class="tag-box">
+            <div class="tag-comment">#14</div>
+            <div class="tag-name">&lt;th&gt;</div>
+            <div class="tag-description">Celdas de encabezado en tablas</div>
+        </div>
+        
+        <!-- 15 -->
+        <div class="tag-box">
+            <div class="tag-comment">#15</div>
+            <div class="tag-name">&lt;form&gt;</div>
+            <div class="tag-description">Contener elementos de formulario</div>
+        </div>
+        
+        <!-- 16 -->
+        <div class="tag-box">
+            <div class="tag-comment">#16</div>
+            <div class="tag-name">&lt;input&gt;</div>
+            <div class="tag-description">Campos de entrada (texto, checkbox, etc.)</div>
+        </div>
+        
+        <!-- 17 -->
+        <div class="tag-box">
+            <div class="tag-comment">#17</div>
+            <div class="tag-name">&lt;button&gt;</div>
+            <div class="tag-description">Botones clickeables</div>
+        </div>
+        
+        <!-- 18 -->
+        <div class="tag-box">
+            <div class="tag-comment">#18</div>
+            <div class="tag-name">&lt;textarea&gt;</div>
+            <div class="tag-description">Áreas de texto multilínea</div>
+        </div>
+        
+        <!-- 19 -->
+        <div class="tag-box">
+            <div class="tag-comment">#19</div>
+            <div class="tag-name">&lt;select&gt;</div>
+            <div class="tag-description">Listas desplegables</div>
+        </div>
+        
+        <!-- 20 -->
+        <div class="tag-box">
+            <div class="tag-comment">#20</div>
+            <div class="tag-name">&lt;option&gt;</div>
+            <div class="tag-description">Opciones dentro de select</div>
+        </div>
+        
+        <!-- 21 -->
+        <div class="tag-box">
+            <div class="tag-comment">#21</div>
+            <div class="tag-name">&lt;label&gt;</div>
+            <div class="tag-description">Etiquetar elementos de formulario</div>
+        </div>
+        
+        <!-- 22 -->
+        <div class="tag-box">
+            <div class="tag-comment">#22</div>
+            <div class="tag-name">&lt;header&gt;</div>
+            <div class="tag-description">Encabezado de la página o sección</div>
+        </div>
+        
+        <!-- 23 -->
+        <div class="tag-box">
+            <div class="tag-comment">#23</div>
+            <div class="tag-name">&lt;footer&gt;</div>
+            <div class="tag-description">Pie de página o sección</div>
+        </div>
+        
+        <!-- 24 -->
+        <div class="tag-box">
+            <div class="tag-comment">#24</div>
+            <div class="tag-name">&lt;nav&gt;</div>
+            <div class="tag-description">Menús de navegación</div>
+        </div>
+        
+        <!-- 25 -->
+        <div class="tag-box">
+            <div class="tag-comment">#25</div>
+            <div class="tag-name">&lt;section&gt;</div>
+            <div class="tag-description">Agrupar contenido temático</div>
+        </div>
+        
+        <!-- 26 -->
+        <div class="tag-box">
+            <div class="tag-comment">#26</div>
+            <div class="tag-name">&lt;article&gt;</div>
+            <div class="tag-description">Contenido independiente (posts, noticias)</div>
+        </div>
+        
+        <!-- 27 -->
+        <div class="tag-box">
+            <div class="tag-comment">#27</div>
+            <div class="tag-name">&lt;aside&gt;</div>
+            <div class="tag-description">Contenido secundario o lateral</div>
+        </div>
+        
+        <!-- 28 -->
+        <div class="tag-box">
+            <div class="tag-comment">#28</div>
+            <div class="tag-name">&lt;main&gt;</div>
+            <div class="tag-description">Contenido principal de la página</div>
+        </div>
+        
+        <!-- 29 -->
+        <div class="tag-box">
+            <div class="tag-comment">#29</div>
+            <div class="tag-name">&lt;strong&gt;</div>
+            <div class="tag-description">Texto en negrita (importancia semántica)</div>
+        </div>
+        
+        <!-- 30 -->
+        <div class="tag-box">
+            <div class="tag-comment">#30</div>
+            <div class="tag-name">&lt;em&gt;</div>
+            <div class="tag-description">Texto en cursiva (énfasis)</div>
+        </div>
+        
+        <!-- 31 -->
+        <div class="tag-box">
+            <div class="tag-comment">#31</div>
+            <div class="tag-name">&lt;br&gt;</div>
+            <div class="tag-description">Saltos de línea (autocerrante)</div>
+        </div>
+        
+        <!-- 32 -->
+        <div class="tag-box">
+            <div class="tag-comment">#32</div>
+            <div class="tag-name">&lt;hr&gt;</div>
+            <div class="tag-description">Líneas divisorias (autocerrante)</div>
+        </div>
+        
+        <!-- 33 -->
+        <div class="tag-box">
+            <div class="tag-comment">#33</div>
+            <div class="tag-name">&lt;meta&gt;</div>
+            <div class="tag-description">Metadatos (autocerrante, va en head)</div>
+        </div>
+        
+        <!-- 34 -->
+        <div class="tag-box">
+            <div class="tag-comment">#34</div>
+            <div class="tag-name">&lt;link&gt;</div>
+            <div class="tag-description">Vincular recursos externos como CSS</div>
+        </div>
+        
+        <!-- 35 -->
+        <div class="tag-box">
+            <div class="tag-comment">#35</div>
+            <div class="tag-name">&lt;style&gt;</div>
+            <div class="tag-description">CSS interno (va en head)</div>
+        </div>
+        
+        <!-- 36 -->
+        <div class="tag-box">
+            <div class="tag-comment">#36</div>
+            <div class="tag-name">&lt;script&gt;</div>
+            <div class="tag-description">Código JavaScript</div>
+        </div>
+        
+        <!-- 37 -->
+        <div class="tag-box">
+            <div class="tag-comment">#37</div>
+            <div class="tag-name">&lt;iframe&gt;</div>
+            <div class="tag-description">Incrustar otra página web</div>
+        </div>
+        
+        <!-- 38 -->
+        <div class="tag-box">
+            <div class="tag-comment">#38</div>
+            <div class="tag-name">&lt;video&gt;</div>
+            <div class="tag-description">Reproductor de video</div>
+        </div>
+        
+        <!-- 39 -->
+        <div class="tag-box">
+            <div class="tag-comment">#39</div>
+            <div class="tag-name">&lt;audio&gt;</div>
+            <div class="tag-description">Reproductor de audio</div>
+        </div>
+        
+        <!-- 40 -->
+        <div class="tag-box">
+            <div class="tag-comment">#40</div>
+            <div class="tag-name">&lt;svg&gt;</div>
+            <div class="tag-description">Gráficos vectoriales escalables</div>
+        </div>
+        
+        <!-- 41 -->
+        <div class="tag-box">
+            <div class="tag-comment">#41</div>
+            <div class="tag-name">&lt;canvas&gt;</div>
+            <div class="tag-description">Dibujar gráficos con JavaScript</div>
+        </div>
+    </div>
+
+    <footer class="team-footer">
+        <h3>Integrantes del Grupo</h3>
+        <div class="team-members">
+            <div class="member">VILLASANTE ARACAYO, MARK ANTHONY</div>
+            <div class="member">CCORIMANYA APAZA, ROY</div>
+            <div class="member">CONDORI PAUCAR, LUIS HERNAN</div>
+            <div class="member">SUNI AYMA, RONALD ALEXANDER</div>
+        </div>
+    </footer>
+</body>
+</html>
